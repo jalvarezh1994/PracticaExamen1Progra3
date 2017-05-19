@@ -1,5 +1,5 @@
-#include "PequenasFamiliasNobles"
-
+#include "PequenasFamiliasNobles.h"
+#include <string>
 using namespace std;
 
 PequenasFamiliasNobles::PequenasFamiliasNobles(){
