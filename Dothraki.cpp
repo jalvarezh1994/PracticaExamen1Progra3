@@ -32,6 +32,14 @@ string Dothraki::getColorDeCabello(){
 	return ColorDeCabello;
 }
 
+double Dothraki::getAtaque(){
+	return Ataque;
+}
+
+double Dothraki::getDefensa(){
+	return Defensa;
+}
+
 void Dothraki::setNombre(string s){
 	Nombre=s;
 }

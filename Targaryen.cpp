@@ -1,13 +1,15 @@
 #include "Targaryen.h"
 #include <string>
 #include "Familia.h"
+#include "Guardia.h"
+
 using namespace std;
 
 Targaryen::Targaryen(){
         
 }
 
-Targaryen::Targaryen(string jefe,string animal,string lema,int dragones,int barcos,Dothraki ejercito){
+Targaryen::Targaryen(string jefe,string animal,string lema,int dragones,int barcos, Guardia ejercito){
 	Jefe_Familia=jefe;
 	Animal_Emblema=animal;
 	Lema=lema;
@@ -20,7 +22,7 @@ int Targaryen::getCant_Dragones(){
         return Cant_Dragones;
 }
 
-Dothraki Targaryen::getEjercito(){
+Guardia Targaryen::getEjercito(){
         return Ejercito;
 }
 
@@ -32,7 +34,7 @@ void Targaryen::setCant_Dragones(int i){
         Cant_Dragones=i;
 }
 
-void Targaryen::setEjercito(Dothraki p){
+void Targaryen::setEjercito(Guardia p){
         Ejercito=p;
 }
 

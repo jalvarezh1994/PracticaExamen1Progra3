@@ -18,8 +18,10 @@ class Lannister: public Familia{
 		double getDinero();
 		string getFuerzaDeLaMontana();
 		int getIntegrantes();
+		Dothraki getDothraki();
 
 		void setDinero(double);
 		void setFuerzaDeLaMontana(string);
 		void setIntegrantes(int);
+		void setDothraki(Dothraki);		
 };

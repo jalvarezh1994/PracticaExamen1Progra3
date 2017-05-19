@@ -1,5 +1,5 @@
-#include<string>
-#include<iostream>
+#include <string>
+#include <iostream>
 #include "Familia.h"
 #include "Starks.h"
 #include "Lannister.h"
@@ -47,7 +47,7 @@ int main(){
 	    	    int opc;
 		    cout<<"Ingrese una opción: ";
 		    cin>>opc;
-		    if(opc=1){
+		    if(opc==1){
 			string jefe;
 			cout<<"Ingrese Jefe de la familia: ";
 			cin>>jefe;
@@ -72,7 +72,7 @@ int main(){
 				Starks a(jefe,animal,lema,huargos,nobles[ejercito],guerrero,integrantes);
 				starks=a;
 			    }
-			    if(opc=2){
+			if(opc==2){
                                 string jefe;
 				cout<<"Ingrese Jefe de la familia: ";
 				cin>>jefe;
@@ -96,9 +96,9 @@ int main(){
 				cin>>integrantes;
 				Lannister a(jefe,animal,lema,dinero,fuerza,integrantes,dothraki[ejercito]);
 				lannister=a;
-			    }
-                        break;
-                        }
+			}
+                       break;
+                       }
 
 	               case 2:{
 
@@ -295,7 +295,60 @@ int main(){
 			
 			case 6:{
 				//Simulacion
+				Familia f1,f2;
+				int fa1,fa2;
+				cout<<"Seleccione las familias"<<endl;	
+  				cout<<"1. Starks"<<endl;
+				cout<<"2. Lannister"<<endl;
+				cout<<"3. Targaryen"<<endl;
+				cout<<"Ingrese la familia 1: ";
+				cin>>fa1;
+				cout<<"Ingrese la familia 2: ";
+				cin>>fa2;
+				cout<<endl;
+				if(fa1==1&&fa2==2){
+					do{
+						int h;
+						cout<<"Defensa Starks "<<starks.getPequenasFamiliasNobles().getDefensa()<<endl; 	                                 		       cout<<"Defensa Lannister"<<lannister.getDothraki().getDefensa()<<endl;
+						cout<<"Turno juador 1"<<endl;
+						double dano=starks.getPequenasFamiliasNobles().getAtaque();
+						lannister.getDothraki().setDefensa(lannister.getDothraki().getDefensa()-dano);
+						if(lannister.getDothraki().getDefensa()<=0){
+							break;
+						}
+						cout<<"Defensa Starks "<<starks.getPequenasFamiliasNobles().getDefensa()<<endl;
+						cout<<"Defensa Lannister"<<lannister.getDothraki().getDefensa()<<endl;
+						cin>>h;
+						double dano1=lannister.getDothraki().getAtaque();
+						starks.getPequenasFamiliasNobles().setDefensa(starks.getPequenasFamiliasNobles().getDefensa()-dano1);
+					}while(starks.getPequenasFamiliasNobles().getDefensa()>0||lannister.getDothraki().getDefensa()>0);
+					if(starks.getPequenasFamiliasNobles().getDefensa()>0){
+						cout<<"Ganó Starks"<<endl;
+					}else{
+						cout<<"Ganó Lannister"<<endl;
+					}
+				}
+				if(fa1==1&&fa2==3){
+					do{
+						int h;
+						cout<<"Defensa Starks "<<starks.getPequenasFamiliasNobles().getDefensa()<<endl;                                                                cout<<"Defensa Targaryen"<<targaryen.getEjercito().getDefensa()<<endl;
+						cout<<"Turno juador 1"<<endl;
+						double dano=starks.getPequenasFamiliasNobles().getAtaque();
+						targaryen.getEjercito().setDefensa(targaryen.getEjercito().getDefensa()-dano); 		                                                       if(targaryen.getEjercito().getDefensa()<=0){
+							break;
+						}
+						cout<<"Defensa Starks "<<starks.getPequenasFamiliasNobles().getDefensa()<<endl;
+						cout<<"Defensa Lannister"<<lannister.getDothraki().getDefensa()<<endl;			                                                       cin>>h;											                                                      double dano1=targaryen.getEjercito().getAtaque();						                                                     starks.getPequenasFamiliasNobles().setDefensa(starks.getPequenasFamiliasNobles().getDefensa()-dano1);
+					}while(starks.getPequenasFamiliasNobles().getDefensa()>0||targaryen.getEjercito().getDefensa()>0);
+					if(starks.getPequenasFamiliasNobles().getDefensa()>0){
+						cout<<"Ganó Starks"<<endl;
+					}else{
+						cout<<"Ganó Targaryen"<<endl;
+					}
 
+				}
+				if(fa1==2&&fa2==3){
+				}
 			}
 
 	
@@ -304,10 +357,8 @@ int main(){
                 cout<<"Desea continuar? S o N"<<endl;
                 cin >> resp;
         }
-
+	cout<<starks.getPequenasFamiliasNobles().getNombre()<<endl;
         cout<<"Bye";
 
-return 0;
+	return 0;
 }
-
-

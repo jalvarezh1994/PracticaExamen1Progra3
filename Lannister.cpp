@@ -31,6 +31,10 @@ int Lannister::getIntegrantes(){
 	return Integrantes;
 }
 
+Dothraki Lannister::getDothraki(){
+	return Ejercito;
+}
+
 void Lannister::setDinero(double d){
 	Dinero=d;
 }
@@ -41,4 +45,8 @@ void Lannister::setFuerzaDeLaMontana(string s){
 
 void Lannister::setIntegrantes(int i){
 	Integrantes=i;
+}
+
+void Lannister::setDothraki(Dothraki d){
+	Ejercito=d;
 }
