@@ -10,10 +10,11 @@ PequenasFamiliasNobles::PequenasFamiliasNobles(){
 
 }
 
-PequenasFamiliasNobles::PequenasFamiliasNobles(string Nombre, string SimboloDeEscudo,string Lema, double Ataque, double Defensa){
+PequenasFamiliasNobles::PequenasFamiliasNobles(string Nombre, string SimboloDeEscudo,string Lema,int CantidadDePersonas,double Ataque, double Defensa){
 	this->Nombre=Nombre;
 	this->SimboloDeEscudo=SimboloDeEscudo;
 	this->Lema=Lema;
+	this->CantidadDePersonas=CantidadDePersonas;
 	this->Ataque=Ataque;
 	this->Defensa=Defensa;
 
