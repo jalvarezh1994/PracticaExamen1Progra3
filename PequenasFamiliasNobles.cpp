@@ -1,4 +1,4 @@
-#include "PequenasFamiliasNobles"
+#include "PequenasFamiliasNobles.h"
 
 using namespace std;
 
