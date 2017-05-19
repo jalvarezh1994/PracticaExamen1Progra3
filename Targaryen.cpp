@@ -7,6 +7,15 @@ Targaryen::Targaryen(){
         
 }
 
+Targaryen::Targaryen(string jefe,string animal,string lema,int dragones,int barcos,Dotrhraki ejercito){
+	Jefe_Familia=jefe;
+	Animal_Emblema=animal;
+	Lema=lema;
+	Cant_Dragones=dragones;
+	Cant_Barcos=barcos;
+	Ejercito=ejercito;	
+}
+
 int Targaryen::getCant_Dragones(){
         return Cant_Dragones;
 }

@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "Familia.h"
+#include "Dothraki.h"
 
 using namespace std;
 
@@ -9,8 +10,10 @@ class Lannister{
 		double Dinero;
 		string FuerzaDeLaMontana;
 		int Integrantes;
+		Dothraki Ejercito;
 	public:
 		Lannister();
+		Lannister(string,string,string,double,string,int,Dothraki);
 
 		double getDinero();
 		string getFuerzaDeLaMontana();

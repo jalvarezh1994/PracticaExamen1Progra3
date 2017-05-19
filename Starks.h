@@ -13,6 +13,7 @@ class Starks{
 		int CantidadDeIntegrantes;
 	public:
 		Starks();
+		Starks(string,string,string,int,PequenasFamiliasNobles,string,int);
 		
 		int getCantidadDeHuargos();
 		PequenasFamiliasNobles getPequenasFamiliasNobles();

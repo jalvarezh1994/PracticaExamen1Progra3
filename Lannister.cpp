@@ -7,6 +7,16 @@ Lannister::Lannister(){
 
 }
 
+Lannister::Lannister(string jefe, string animal, string lema, double dinero, string fuerza, int integrantes, Dothraki ejercito){
+	Jefe_Familia=jefe;
+	Animal_Emblema=animal;
+	Lema=lema;
+	Dinero=dinero;
+	FuerzaDeLaMontana=fuerza;
+	Integrantes=integrantes;
+	Ejercito=ejercito;
+}
+
 double Lannister::getDinero(){
 	return Dinero;
 }
