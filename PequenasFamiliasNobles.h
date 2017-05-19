@@ -13,6 +13,7 @@ class PequenasFamiliasNobles{
 		double Defensa;
 	public:
 		PequenasFamiliasNobles();
+		PequenasFamiliasNobles(string,string,string,int,double,double);
 		string getNombre();
 		void setNombre(string);
 		string getSimboloDeEscudo();

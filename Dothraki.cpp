@@ -5,6 +5,17 @@ Dothraki::Dothraki(){
 
 }
 
+Dothraki::Dothraki(string Nombre, string JefeBarbaro, string NombreDelCaballo, string ColorDeCabello, double Ataque, double Defensa){
+	
+	this->Nombre=Nombre;
+	this->JefeBarbaro=JefeBarbaro;
+	this->NombreDelCaballo=NombreDelCaballo;
+	this->ColorDeCabello=ColorDeCabello;
+	this->Ataque=Ataque;
+	this->Defensa=Defensa;
+
+}
+
 string Dothraki::getNombre(){
 	return Nombre;
 }

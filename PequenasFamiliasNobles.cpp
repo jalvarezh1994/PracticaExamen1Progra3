@@ -10,6 +10,17 @@ PequenasFamiliasNobles::PequenasFamiliasNobles(){
 
 }
 
+PequenasFamiliasNobles::PequenasFamiliasNobles(string Nombre, string SimboloDeEscudo,string Lema, double Ataque, double Defensa){
+	this->Nombre=Nombre;
+	this->SimboloDeEscudo=SimboloDeEscudo;
+	this->Lema=Lema;
+	this->Ataque=Ataque;
+	this->Defensa=Defensa;
+
+}
+
+
+
 string PequenasFamiliasNobles::getNombre(){
 	return this->Nombre;
 }
