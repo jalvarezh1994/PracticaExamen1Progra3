@@ -262,7 +262,7 @@ int main(){
 					cout<< "Mire las listas y seleccione la posicion que desea desaparecer de la faz de la tierra"<<endl;
 					cin>>n;	
 					
-					nobles.erase(n);
+					delete nobles[n];
 					
 					break;
 					}
@@ -272,7 +272,7 @@ int main(){
 					int n;
                                         cout<< "Mire las listas y seleccione la posicion que desea desaparecer de la faz de la tierra"<<endl;                                            cin>>n;
 
-                                        dothraki.erase(n);
+                                        dothraki.erase (n);
 					
 
 					break;
