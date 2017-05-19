@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-Guardia()::Guardia(){
+Guardia::Guardia(){
 
 }
 
@@ -22,11 +22,11 @@ void Guardia::setTipo_soldado(string T_soldado){
         this->Tipo_soldado=T_soldado;
 }
 
-string Guardia::getEdad(){
+int Guardia::getEdad(){
         return Edad;
 }
 
-void Guardia::setEdad(string pEdad){
+void Guardia::setEdad(int pEdad){
         this->Edad=pEdad;
 }
 

@@ -4,20 +4,20 @@
 using namespace std;
 
 class Dothraki{
-	public:
+	private:
 		string Nombre;
 		string JefeBarbaro;
 		string NombreDelCaballo;
 		string ColorDeCabello;
 		double Ataque;
 		double Defensa;
-	private:
+	public:
 		Dothraki();
 
 		string getNombre();
 		string getJefeBarbaro();
 		string getNombreDelCaballo();
-		strint getColorDeCabello();
+		string getColorDeCabello();
 		double getAtaque();
 		double getDefensa();
 

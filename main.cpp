@@ -1,5 +1,12 @@
 #include<string>
 #include<iostream>
+#include "Familia.h"
+#include "Starks.h"
+#include "Lannister.h"
+#include "Targaryen.h"
+#include "PequenasFamiliasNobles.h"
+#include "Dothraki.h"
+#include "Guardia.h"
 
 using namespace std;
 
@@ -44,16 +51,5 @@ int main(){
 
         cout<<"Bye";
 
-return 0;
-}
-
-	
-	
-	
-	
-	
-	
-	
-	
 return 0;
 }

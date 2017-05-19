@@ -12,7 +12,7 @@ int Starks::getCantidadDeHuargos(){
 }
 
 PequenasFamiliasNobles Starks::getPequenasFamiliasNobles(){
-	return Ejercrito;
+	return Ejercito;
 }
 
 string Starks::getGuerreroMasValioso(){

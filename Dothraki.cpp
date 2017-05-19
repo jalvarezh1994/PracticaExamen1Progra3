@@ -14,7 +14,7 @@ string Dothraki::getJefeBarbaro(){
 }
 
 string Dothraki::getNombreDelCaballo(){
-	return Caballo;
+	return NombreDelCaballo;
 }
 
 string Dothraki::getColorDeCabello(){

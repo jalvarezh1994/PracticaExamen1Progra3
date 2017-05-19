@@ -20,7 +20,7 @@ class PequenasFamiliasNobles{
 		string getLema();
 		void setLema(string);
 		int getCantidadDePersonas();
-		void setCantidadDePErsonas(int);
+		void setCantidadDePersonas(int);
 		double getAtaque();
 		void setAtaque(double);
 		double getDefensa();

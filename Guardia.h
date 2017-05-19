@@ -7,7 +7,7 @@ class Guardia{
 	private:
 		string Nombre;
 		string Tipo_soldado;
-		int edad;
+		int Edad;
 		double Ataque;
 		double Defensa;
 	public:

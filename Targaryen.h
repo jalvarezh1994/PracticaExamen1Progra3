@@ -10,7 +10,7 @@ class Targaryen: public Familia{
 	private:
 		int Cant_Dragones;
 		int Cant_Barcos;
-		Dothraki ejercito;
+		Dothraki Ejercito;
 		
 	public: 
 		Targaryen();

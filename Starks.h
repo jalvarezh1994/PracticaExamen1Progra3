@@ -1,11 +1,11 @@
-//TODO
 #pragma once
 #include <string>
+#include "PequenasFamiliasNobles.h"
 #include "Familia.h"
 
 using namespace std;
 
-class Stark{
+class Starks{
 	private:
 		int CantidadDeHuargos;
 		PequenasFamiliasNobles Ejercito;

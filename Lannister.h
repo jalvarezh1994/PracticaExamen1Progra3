@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "Familia.h"
 
 using namespace std;
 

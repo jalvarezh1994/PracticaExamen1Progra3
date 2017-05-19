@@ -1,9 +1,9 @@
 #include "PequenasFamiliasNobles.h"
-<<<<<<< HEAD
-#include <string>
-=======
 
->>>>>>> 49836f2e7ff2cdc8047aa5ae0b8f66cdfa8c344d
+#include <string>
+
+
+
 using namespace std;
 
 PequenasFamiliasNobles::PequenasFamiliasNobles(){

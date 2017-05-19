@@ -7,26 +7,26 @@ Lannister::Lannister(){
 
 }
 
-double getDinero(){
+double Lannister::getDinero(){
 	return Dinero;
 }
 
-string getFuerzaDeLaMontana(){
+string Lannister::getFuerzaDeLaMontana(){
 	return FuerzaDeLaMontana;
 }
 
-int getIntegrantes(){
+int Lannister::getIntegrantes(){
 	return Integrantes;
 }
 
-void setDinero(double d){
+void Lannister::setDinero(double d){
 	Dinero=d;
 }
 
-void setFuerzaDeLaMontana(string s){
-	string=s;
+void Lannister::setFuerzaDeLaMontana(string s){
+	FuerzaDeLaMontana=s;
 }
 
-void setIntegrantes(int i){
+void Lannister::setIntegrantes(int i){
 	Integrantes=i;
 }
