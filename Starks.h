@@ -11,8 +11,10 @@ class Starks{
 		PequenasFamiliasNobles Ejercito;
 		string GuerreroMasValioso;
 		int CantidadDeIntegrantes;
+,Can
 	public:
 		Starks();
+		Starks(string,string,string,int,PequenasFamiliasNobles,string,int);
 		
 		int getCantidadDeHuargos();
 		PequenasFamiliasNobles getPequenasFamiliasNobles();
