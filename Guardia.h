@@ -12,6 +12,7 @@ class Guardia{
 		double Defensa;
 	public:
 		Guardia();
+		Guardia(string,string,int,double,double);
 		string getNombre();
 		void setNombre(string);
 		string getTipo_soldado();

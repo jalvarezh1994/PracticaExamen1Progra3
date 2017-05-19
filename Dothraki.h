@@ -13,7 +13,8 @@ class Dothraki{
 		double Defensa;
 	public:
 		Dothraki();
-
+		Dothraki(string,string,string,string,double,double);
+		
 		string getNombre();
 		string getJefeBarbaro();
 		string getNombreDelCaballo();

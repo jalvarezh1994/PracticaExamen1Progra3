@@ -6,6 +6,15 @@ Guardia::Guardia(){
 
 }
 
+Guardia::Guardia(string Nombre, string Tipo_soldado, int Edad, double Ataque, double Defensa){
+	
+	this->Nombre=Nombre;
+	this->Tipo_soldado=Tipo_soldado;
+	this->Edad=Edad;
+	this->Ataque=Ataque;
+	this->Defensa=Defensa;
+}
+
 string Guardia::getNombre(){
         return Nombre;
 }
