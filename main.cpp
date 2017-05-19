@@ -11,6 +11,7 @@
 
 using namespace std;
 
+
 int main(){
 	
 
@@ -262,7 +263,8 @@ int main(){
 					cout<< "Mire las listas y seleccione la posicion que desea desaparecer de la faz de la tierra"<<endl;
 					cin>>n;	
 					
-					nobles.erase(n);
+					nobles.erase(nobles.begin()+n);
+					
 					
 					break;
 					}
@@ -272,7 +274,7 @@ int main(){
 					int n;
                                         cout<< "Mire las listas y seleccione la posicion que desea desaparecer de la faz de la tierra"<<endl;                                            cin>>n;
 
-                                        dothraki.erase(n);
+                                        //dothraki.erase(n);
 					
 
 					break;
@@ -282,9 +284,9 @@ int main(){
 					int n;
                                         cout<< "Mire las listas y seleccione la posicion que desea desaparecer de la faz de la tierra"<<endl;                                            cin>>n;
 
-                                        guardia.erase(n);
+                                        //guardia.erase(n);
 
-
+					
 										
 					break;
 					}

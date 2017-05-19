@@ -1,5 +1,7 @@
 #include "Lannister.h"
 #include <string>
+#include "Familia.h"
+#include <iostream>
 
 using namespace std;
 
@@ -8,9 +10,9 @@ Lannister::Lannister(){
 }
 
 Lannister::Lannister(string jefe, string animal, string lema, double dinero, string fuerza, int integrantes, Dothraki ejercito){
-	Jefe_Familia=jefe;
-	Animal_Emblema=animal;
-	Lema=lema;
+	this->Jefe_Familia=jefe;
+	this->Animal_Emblema=animal;
+	this->Lema=lema;
 	Dinero=dinero;
 	FuerzaDeLaMontana=fuerza;
 	Integrantes=integrantes;

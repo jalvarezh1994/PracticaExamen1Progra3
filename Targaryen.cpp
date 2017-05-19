@@ -7,7 +7,7 @@ Targaryen::Targaryen(){
         
 }
 
-Targaryen::Targaryen(string jefe,string animal,string lema,int dragones,int barcos,Dotrhraki ejercito){
+Targaryen::Targaryen(string jefe,string animal,string lema,int dragones,int barcos,Dothraki ejercito){
 	Jefe_Familia=jefe;
 	Animal_Emblema=animal;
 	Lema=lema;

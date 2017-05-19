@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Starks{
+class Starks: public Familia{
 	private:
 		int CantidadDeHuargos;
 		PequenasFamiliasNobles Ejercito;

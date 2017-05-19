@@ -2,10 +2,10 @@
 #include <string>
 #include "Familia.h"
 #include "Dothraki.h"
-
+#include <iostream>
 using namespace std;
 
-class Lannister{
+class Lannister: public Familia{
 	private:
 		double Dinero;
 		string FuerzaDeLaMontana;
